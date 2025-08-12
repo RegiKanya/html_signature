@@ -3,75 +3,51 @@
 
 <head>
     <title>Ewiser email aláírás</title>
-</head>
-
-<body>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap" rel="stylesheet">
 
+    <link rel="stylesheet" href="helper.css">
+</head>
 
-    <table cellpadding="0" cellspacing="0" style="
-      width: 100%;
-      font-family: 'Red Hat Display', sans-serif;
-      color: #ffffff; 
-      background-image: url('https://regikanya.github.io/html_signature/Frame_1.png'); 
-      background-size: contain; 
-      background-repeat: no-repeat; 
-      background-position: left; 
-      padding: 20px; 
-      border-radius: 0px;
-      margin: 0 auto;
-     ">
+<body>
+   
+
+    <table cellpadding="0" cellspacing="0" class="signature-container">
         <tr>
-            <td colspan="3" style="font-size: 25px; font-weight: bold; color: #ffffff; padding-bottom: 10px;">
+            <td colspan="3" class="name-cell">
                 Név
             </td>
         </tr>
         
         <tr>
-            <td style="width: 5px; vertical-align: middle;">
-                <img src="https://regikanya.github.io/html_signature/Ewiser-telefon.png" alt="tel" width="20" style="margin-right: 5px;">
+            <td class="icon-cell">
+                <img src="https://regikanya.github.io/html_signature/Ewiser-telefon.png" alt="tel" width="20" class="icon-image">
             </td>
 
-            <td rowspan="3" style="border-right: 2.5px solid #00aeff;">
+            <td rowspan="3" class="divider-cell">
             </td>
 
-            <td style="vertical-align: right; padding-left: 12px;">
-                <a href="tel:+36301234567" style="
-              font-size: 15px; 
-              font-family: 'Roboto', sans-serif;
-              font-style: normal;
-              color: #ffffff; 
-              text-decoration: none;"> +36 30 123 4567</a>
+            <td class="data-cell">
+                <a href="tel:+36301234567" class="contact-link"> +36 30 123 4567</a>
             </td>
         </tr>
 
         <tr>
-            <td style="width: 5px; vertical-align: middle;">
-                <img src="https://regikanya.github.io/html_signature/Ewiser-email.png" alt="email" width="20" style="margin-right: 5px;">
+            <td class="icon-cell">
+                <img src="https://regikanya.github.io/html_signature/Ewiser-email.png" alt="email" width="20" class="icon-image">
             </td>
-            <td style="vertical-align: right; padding-left: 12px;">
-                <a href="mailto:regina.kanya@ewiser.hu" style="
-              font-size: 15px; 
-              font-family: 'Roboto', sans-serif;
-              font-style: normal;
-              color: #ffffff; 
-              text-decoration: none;">email.address@ewiser.hu</a>
+            <td class="data-cell">
+                <a href="mailto:regina.kanya@ewiser.hu" class="contact-link">email.address@ewiser.hu</a>
             </td>
         </tr>
 
         <tr>
-            <td style="width: 5px; vertical-align: middle;">
-                <img src="https://regikanya.github.io/html_signature/Ewiser-honlap.png" alt="honlap" width="20" style="margin-right: 5px;">
+            <td class="icon-cell">
+                <img src="https://regikanya.github.io/html_signature/Ewiser-honlap.png" alt="honlap" width="20" class="icon-image">
             </td>
-            <td style="vertical-align: right; padding-left: 12px;">
-                <a href="https://ewiser.ai" target="_blank" style="
-              font-size: 15px;
-              font-family: 'Roboto', sans-serif;
-              font-style: normal;
-              color: #ffffff; 
-              text-decoration: none;"> ewiser.ai</a>
+            <td class="data-cell">
+                <a href="https://ewiser.ai" target="_blank" class="contact-link"> ewiser.ai</a>
             </td>
         </tr>
     </table>

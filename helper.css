@@ -1,13 +1,14 @@
 .signature-container {
-    width: 100%;
+    width: 600px;
+    height: 250px;
     font-family: 'Red Hat Display', sans-serif;
     color: #ffffff;
-    background-size: contain;
+    background-size: 600px 250px;
     background-repeat: no-repeat;
     background-position: left;
-    padding: 20px;
+   /* padding: 20px;
     border-radius: 0px;
-    margin: 0 auto;
+    margin: 0 auto; */
 }
 .name-cell {
     font-size: 17.2px;
